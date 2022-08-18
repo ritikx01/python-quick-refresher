@@ -40,6 +40,9 @@ print(new_list)
 ```
 > [1, 16, 81, 9]
 
+Note: map function returns a generator, meaning to get map to actually call the function on every element of a list, you need to iterate through the resultant generator.
+Hence we use it inside list() function.
+
 3. filter function() also takes two arguments, a function and a list, it also iterates the list over that function but returns only those elements
 that evaluate to true.
 ```python
